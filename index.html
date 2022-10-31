@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container" onclick="leading()">
+            <div>
+                <h3 id="titletextHome">HOME</h3>
+                <p id="pointTextHome"> 0 </p>
+                <button id="home1" onclick="incrementh1()"> +1 </button>
+                <button id="home2" onclick="incrementh2()"> +2 </button>
+                <button id="home3" onclick="incrementh3()"> +3 </button>
+            </div>
+            <div>
+                <h3 id="titletextGuest">GUEST</h3>
+                <p id="pointTextGuest"> 0 </p>
+                <button id="gst1" onclick="incrementg1()"> +1 </button>
+                <button id="gst2" onclick="incrementg2()"> +2 </button>
+                <button id="gst3" onclick="incrementg3()"> +3 </button>
+            </div>
+        </div>
+        <br> <br>
+        <div class="container">
+            <button id="reset" onclick="reset()"> RESET </button>
+        </div>    
+        <script src="index.js"></script>
+    </body>
+</html>
